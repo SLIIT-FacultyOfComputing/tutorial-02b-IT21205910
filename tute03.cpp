@@ -12,13 +12,13 @@ int main()
     long fac;
 
     cout<<"Enter a Number : ";
-    cin>>"%d", &no;
+    cin>>no;
 
     fac = 1;
     for (int r=no; r >= 1; r--) {
         fac = fac * r;
     }
 
-    cout<<"Factorial of %d is %ld\n", no, fac;  
+    cout<<"Factorial of is "<<no<<fac<<endl;  
     return 0;
 }
